@@ -8,7 +8,7 @@ This interaction is neither an internal electronic modification nor a psychologi
 For an unmodified machine to play audio out loud, it must mimic the three core systems of a wireless radio path: an antenna, a demodulator, and an acoustic transducer.
 
 
-
+```mermaid
          [ This is Where you use a scanner to search for it and lock onto it ]
                                        |
 [ External Transmitter ] 📡 ──( Airborne RF Wave )──> [ Structural Appliance Metal ]
@@ -21,7 +21,7 @@ For an unmodified machine to play audio out loud, it must mimic the three core s
                                                                    │
                                                                    ▼
 [ Acoustic Sound Wave ] 🔊 <──(Physical Vibrations)── [ AC Motor Copper Windings ]
-
+```
 ## 1. Stage 1: RF Induction (The Accidental Antenna)
 The extensive metallic framework of an HVAC system—including sheet-metal ductwork, unshielded copper refrigerant pipes, structural framing, and long electrical conduit paths—acts as an unintentional resonant antenna array. When high-power external radio waves travel through the air and strike these large metal surfaces, the electromagnetic fields force the free electrons inside the metal to vibrate. This creates a tiny, high-frequency alternating electrical current (RF energy) directly inside the structural frame of the appliance.
 ## 2. Stage 2: Passive Rectification (The Accidental Diode)
