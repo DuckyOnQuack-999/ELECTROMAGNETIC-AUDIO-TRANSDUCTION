@@ -8,7 +8,7 @@ This interaction is neither an internal electronic modification nor a psychologi
 For an unmodified machine to play audio out loud, it must mimic the three core systems of a wireless radio path: an antenna, a demodulator, and an acoustic transducer.
 
 
-```
+```md
          [ This is Where you use a scanner to search for it and lock onto it ]
                                        |
 [ External Transmitter ] 📡 ──( Airborne RF Wave )──> [ Structural Appliance Metal ]
