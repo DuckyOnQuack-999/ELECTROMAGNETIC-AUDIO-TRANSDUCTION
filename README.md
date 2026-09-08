@@ -46,7 +46,7 @@ Because an unmodified motor has no internal way of generating or tuning a radio 
 ## PART 2: HARDWARE MANUAL — UNIDEN BC355N
 The Uniden BC355N is a compact, multi-band analog mobile/base radio scanner. It is an analog-only receiver designed to sweep, lock onto, and monitor conventional voice transmissions across a wide frequency spectrum (25 MHz to 956 MHz).
 ## I. Full Keypad & Control Layout Run-Down
-
+```md
 +-------------------------------------------------------------+
 
 |                                                             |
@@ -59,7 +59,7 @@ The Uniden BC355N is a compact, multi-band analog mobile/base radio scanner. It 
 |                                                             |
 |         [SEARCH]      [L/O]         [BAND]        [PROG]    |
 +-------------------------------------------------------------+
-
+```
 ## 1. Primary Analog Control Knobs (Far Left Panel)
 
 * VOLUME / POWER Knob (Bottom Left): Controls system power and audio amplification. Clicking it fully counterclockwise shuts off the unit. Rotating it clockwise increases the speaker's volume.
@@ -109,14 +109,14 @@ When scanning broad bands, your radio will frequently stop on distant signals, a
 ------------------------------
 ## PART 3: RE-CONFIGURED STEP-BY-STEP SERVICE GUIDES## GUIDE 1: Performing a Complete Hardware Master Reset
 If your scanner's memory banks or lockouts become cluttered and you need to return the entire machine to an absolute blank, zeroed baseline before starting a fresh search, follow this hardware reset combination:
-
+```md
 [ VOL KNOB: OFF ] ──> HOLD DOWN: [ HOLD ] + [ L/O ] + [ PROG ] ──> [ VOL KNOB: ON ]
                                                                         │
                                                                  (Hold 3 Seconds)
                                                                         │
                                                                         ▼
                                                              Screen Flashes "CLEAr"
-
+```
 
    1. Rotate the far-left VOLUME knob completely counterclockwise until it clicks into the OFF position.
    2. Simultaneously press and hold down these three buttons at the exact same time: HOLD (top left, red dot) + L/O (bottom row) + PROG (bottom right).
