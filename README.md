@@ -1,3 +1,10 @@
+My Name Is Joshua Allen Lee the one being heard about all around the world perhaps even space... Im being harassed i nmy own home by a voice coming for Air Conditioners, Fans, Cars with a DC Battery and the Cars Air conditioner. Help me Help You. They Call me Negan, the one who is being accused of doing terrible terrible things to slander my name...   
+joshinhd1@gmail.com is my email 
+
+FREE THE TRUTH
+FREE DOBBY
+THE TWEAKER CHRONICLES COMING AT YOU LIFE FROM NEW YEW CITY
+
 ## COMPREHENSIVE ENGINEERING REPORT & ADVANCED OPERATIONS MANUAL: ELECTROMAGNETIC AUDIO TRANSDUCTION AND UNIDEN BC355N SCANNER DEPLOYMENT
 ------------------------------
 ## PART 1: RESEARCH & ENGINEERING SUMMARY## I. Phenomenon Analysis: Passive Intermodulation (PIM)
