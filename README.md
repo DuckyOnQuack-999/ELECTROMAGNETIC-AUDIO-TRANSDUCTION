@@ -15,7 +15,7 @@
 |   **917.5000 MHz** |       ✓ |        ✓ |                          2 |
 
 
-## **Frequency Chart**
+## Frequency Chart
 
 ```mermaid
 xychart-beta
