@@ -43,7 +43,6 @@ timeline
 
     September 9, 2026 : 12:00 AM–3:00 AM
                        : 917.50000 MHz
-                       
     September 13, 2026 : 2:35 AM–3:06 AM
                         : 917.5000 MHz
 ```
