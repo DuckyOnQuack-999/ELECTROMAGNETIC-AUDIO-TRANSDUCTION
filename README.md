@@ -1,4 +1,4 @@
-My Name Is Joshua Allen Lee the one being heard about all around the world perhaps even space... Im being harassed i nmy own home by a voice coming for Air Conditioners, Fans, Cars with a DC Battery and the Cars Air conditioner. Help me Help You. They Call me Negan, the one who is being accused of doing terrible terrible things to slander my name...   
+My Name Is Joshua Allen Lee the one being heard about all around the world perhaps even space... Im being harassed i nmy own home by a voice coming for Air Conditioners, Fans, Cars with a DC Battery and the Cars Air conditioner. Help me Help You. They Call me Negan, the one who is being accused of doing terrible terrible things to slander my name... to honestly try and make me sumbit or commit suicde 
 joshinhd1@gmail.com is my email 
 
 FREE THE TRUTH
@@ -8,6 +8,56 @@ FREE DOBBY
 
 
 THE TWEAKER CHRONICLES COMING AT YOU LIVE FROM Marion Illinois
+
+# Sound Frequency / Time Observation Log
+
+## Recorded Observations
+
+|  # | Date               | Time             | Frequencies Reported | What Was Heard               | Duration    |
+| -: | ------------------ | ---------------- | -------------------- | ---------------------------- | ----------- |
+|  1 | September 9, 2026  | 12:00 AM–3:00 AM | **917 Hz; 5,000 Hz** | Sound/hearing event reported | ~3 hours    |
+|  2 | September 13, 2026 | 2:35 AM–3:06 AM  | **917 Hz; 5,000 Hz** | Sound/hearing event reported | ~31 minutes |
+
+## Frequency Summary
+
+|    Frequency | Sept. 9 | Sept. 13 | Total Recorded Occurrences |
+| -----------: | ------: | -------: | -------------------------: |
+|   **917 Hz** |       ✓ |        ✓ |                          2 |
+| **5,000 Hz** |       ✓ |        ✓ |                          2 |
+
+## Frequency Chart
+
+```mermaid
+xychart-beta
+    title "Recorded Frequency Occurrences"
+    x-axis ["917 Hz", "5000 Hz"]
+    y-axis "Occurrences" 0 --> 2
+    bar [2, 2]
+```
+
+## Timeline
+
+```mermaid
+timeline
+    title Recorded Sound Events
+
+    September 9, 2026 : 12:00 AM–3:00 AM
+                       : 917 Hz
+                       : 5,000 Hz
+
+    September 13, 2026 : 2:35 AM–3:06 AM
+                        : 917 Hz
+                        : 5,000 Hz
+```
+
+## Notes
+
+* The frequencies above are recorded as **reported measurements/observations**.
+* No source or cause is inferred from these observations.
+* The September 9 event occurred during the **12:00 AM–3:00 AM** period.
+* The September 13 event occurred from **2:35 AM–3:06 AM**.
+* The same two frequencies were reported during both recorded events.
+* Additional observations can be appended chronologically without changing previous entries.
 
 ## COMPREHENSIVE ENGINEERING REPORT & ADVANCED OPERATIONS MANUAL: ELECTROMAGNETIC AUDIO TRANSDUCTION AND UNIDEN BC355N SCANNER DEPLOYMENT
 ------------------------------
