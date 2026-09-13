@@ -15,22 +15,22 @@ THE TWEAKER CHRONICLES COMING AT YOU LIVE FROM Marion Illinois
 
 |  # | Date               | Time             | Frequencies Reported | What Was Heard               | Duration    |
 | -: | ------------------ | ---------------- | -------------------- | ---------------------------- | ----------- |
-|  1 | September 9, 2026  | 12:00 AM–3:00 AM | **917 Hz; 5,000 Hz** | Sound/hearing event reported | ~3 hours    |
-|  2 | September 13, 2026 | 2:35 AM–3:06 AM  | **917 Hz; 5,000 Hz** | Sound/hearing event reported | ~31 minutes |
+|  1 | September 9, 2026  | 12:00 AM–3:00 AM | **917 MHz;** | Sound/hearing event reported | ~3 hours    |
+|  2 | September 13, 2026 | 2:35 AM–3:06 AM  | **917 MHz;** | Sound/hearing event reported | ~31 minutes |
 
 ## Frequency Summary
 
 |    Frequency | Sept. 9 | Sept. 13 | Total Recorded Occurrences |
 | -----------: | ------: | -------: | -------------------------: |
-|   **917 Hz** |       ✓ |        ✓ |                          2 |
-| **5,000 Hz** |       ✓ |        ✓ |                          2 |
+|   **917.5000 MHz** |       ✓ |        ✓ |                          2 |
+
 
 ## Frequency Chart
 
 ```mermaid
 xychart-beta
     title "Recorded Frequency Occurrences"
-    x-axis ["917 Hz", "5000 Hz"]
+    x-axis ["917.5000 MHz"]
     y-axis "Occurrences" 0 --> 2
     bar [2, 2]
 ```
@@ -42,12 +42,12 @@ timeline
     title Recorded Sound Events
 
     September 9, 2026 : 12:00 AM–3:00 AM
-                       : 917 Hz
-                       : 5,000 Hz
+                       : 917.50000 MHz
+                       
 
     September 13, 2026 : 2:35 AM–3:06 AM
-                        : 917 Hz
-                        : 5,000 Hz
+                        : 917.5000 MHz
+                        :
 ```
 
 ## Notes
