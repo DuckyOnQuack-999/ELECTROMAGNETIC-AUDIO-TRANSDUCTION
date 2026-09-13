@@ -5,8 +5,8 @@
 
 |  # | Date               | Time             | Frequencies Reported | What Was Heard               | Duration    |
 | -: | ------------------ | ---------------- | -------------------- | ---------------------------- | ----------- |
-|  1 | September 9, 2026  | 12:00 AM–3:00 AM | **917 MHz;** | Sound/hearing event reported | ~3 hours    |
-|  2 | September 13, 2026 | 2:35 AM–3:06 AM  | **917 MHz;** | Sound/hearing event reported | ~31 minutes |
+|  1 | **September 9, 2026**  | **12:00 AM**–**3:00 AM** | **917 MHz** | **Sound/hearing event reported** | **~3 hours**    |
+|  2 | **September 13, 2026** | **2:35 AM**–**3:06 AM**  | **917 MHz** | **Sound/hearing event reported** | **~31 minutes** |
 
 ## Frequency Summary
 
@@ -15,7 +15,7 @@
 |   **917.5000 MHz** |       ✓ |        ✓ |                          2 |
 
 
-## Frequency Chart
+## **Frequency Chart**
 
 ```mermaid
 xychart-beta
