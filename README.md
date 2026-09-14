@@ -10,7 +10,7 @@
 |  3 | **September 14, 2026** | **1:25 PM**–**1:35 PM**  | **917.5000 MHz** | **Sound/hearing event reported** | **~15 minutes** |
 ## Frequency Summary
 
-|    Frequency | Sept. 9 | Sept. 13 | Total Recorded Occurrences |
+|    Frequency | Sept. 9 | Sept. 13 | | Sept. 14 | Total Recorded Occurrences |
 | -----------: | ------: | -------: | -------------------------: |
 |   **917.5000 MHz** |       ✓ |        ✓ |                          3 |
 
