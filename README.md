@@ -8,19 +8,20 @@
 |  1 | **September 9, 2026**  | **12:00 AM**–**3:00 AM** | **917.5000 MHz** | **Sound/hearing event reported** | **~3 hours**    |
 |  2 | **September 13, 2026** | **2:35 AM**–**3:06 AM**  | **917.5000 MHz** | **Sound/hearing event reported** | **~31 minutes** |
 |  3 | **September 14, 2026** | **1:25 PM**–**1:35 PM**  | **917.5000 MHz** | **Sound/hearing event reported** | **~15 minutes** |
+|  3 | **September 14, 2026** | **2:15 PM**–**2:25 PM**  | **865.5000 MHz** | **Sound/hearing event reported** | **~15 minutes** |
 ## Frequency Summary
 
 |    Frequency | Sept. 9 | Sept. 13  | Sept. 14 | Total Recorded Occurrences |
 | -----------: | ------: | -------:  | ------: | -------------------------: |
 |   **917.5000 MHz** |       ✓ |        ✓ |        ✓ |                          3 |
-
+|   **865.5000 MHz** |         |          |        ✓ |                          1 |
 
 ## Frequency Chart
 
 ```mermaid
 xychart-beta
     title "Recorded Frequency Occurrences"
-    x-axis ["917.5000 MHz"]
+    x-axis ["917.5000 MHz"] ["865.5000 MHz"]
     y-axis "Occurrences" 0 --> 3
     bar [2, 2]
 ```
@@ -37,6 +38,8 @@ timeline
                         : 917.5000 MHz
     September 14, 2026 : 1:25 PM–1:35 PM
                         : 917.5000 MHz
+    September 14, 2026 : 2:15 PM–2:25 PM
+                        : 865.5000 MHz
 ```
 
 ## Notes
@@ -46,6 +49,7 @@ timeline
 * The September 9 event occurred during the **12:00 AM–3:00 AM** period.
 * The September 13 event occurred from **2:35 AM–3:06 AM**.
 * The September 14 event occurred from **1:25 PM–1:35 PM**
+* The September 14 event occurred from **2:15 PM–2:25 PM**
 * Additional observations can be appended chronologically without changing previous entries.
 
 ## COMPREHENSIVE ENGINEERING REPORT & ADVANCED OPERATIONS MANUAL: ELECTROMAGNETIC AUDIO TRANSDUCTION AND UNIDEN BC355N SCANNER DEPLOYMENT
