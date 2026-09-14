@@ -45,6 +45,7 @@ timeline
 * No source or cause is inferred from these observations.
 * The September 9 event occurred during the **12:00 AM–3:00 AM** period.
 * The September 13 event occurred from **2:35 AM–3:06 AM**.
+* The September 13 event occurred from **1:25 PM–1:35 PM**
 * Additional observations can be appended chronologically without changing previous entries.
 
 ## COMPREHENSIVE ENGINEERING REPORT & ADVANCED OPERATIONS MANUAL: ELECTROMAGNETIC AUDIO TRANSDUCTION AND UNIDEN BC355N SCANNER DEPLOYMENT
