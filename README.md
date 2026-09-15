@@ -8,7 +8,8 @@
 [![Region](https://img.shields.io/badge/region-Illinois%20%2F%20FCC%20Chicago-lightgrey)]()
 [![License](https://img.shields.io/badge/license-MIT-black)]()
 
-> [!GOV TICKETS]
+
+> [!NOTE]
 > - ICC 3086-2026
 
 > [!WARNING]
