@@ -72,7 +72,7 @@ Because an unmodified motor has no internal way of generating or tuning a radio 
 ------------------------------
 ## 📊 PART 2: OBSERVATION LOGS & TIMELINE TELEMETRY## I. Sound Frequency / Time Observation Log
 
-* Contact Registers: colonyhackerz1@gmail.com / joshinhd1@gmail.com
+* Contact Registers: cl2344@hotmail.com / joshinhd1@gmail.com 
 
 The following matrix compiles empirical log coordinates tracking anomalous acoustic events linked to specific radio frequency captures.
 
