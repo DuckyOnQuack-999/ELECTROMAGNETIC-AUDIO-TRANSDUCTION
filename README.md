@@ -601,7 +601,8 @@ Press L/O once
   - 900 MHz wireless microphone.
   - Analog baby monitor.
   - Illegally amplified Part 15 device.
-- If unwanted, press **L/O** to skip.
+  - If heard any voices especially on **865.5000MHz** that sounds like harassment or role-play report to the following
+- [Regulatory & Law Enforcement Reporting](#-regulatory--law-enforcement-reporting).
 
 ---
 
