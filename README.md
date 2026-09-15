@@ -1,3 +1,4 @@
+
 # 📡 ELECTROMAGNETIC AUDIO TRANSDUCTION  
 ### Passive RF Rectification, “Rusty Bolt” Audio, and Uniden BC355N Field Operations
 
@@ -6,6 +7,9 @@
 [![Coverage](https://img.shields.io/badge/coverage-25--956%20MHz-green)]()
 [![Region](https://img.shields.io/badge/region-Illinois%20%2F%20FCC%20Chicago-lightgrey)]()
 [![License](https://img.shields.io/badge/license-MIT-black)]()
+
+> [!WARNING]
+> - **This research and report is done by a real person hearing this for real. Hearing a whole convosation next to a HVAC unit with no one their makes you feel crazy until you take a read everything in the repo below is actually real researched, documented and needs reported because people have been illgeally breaking the law for the longest time email is down in the repo below contact me and i`ll give you the source and who they are.** 
 
 > **Repository concept:** `DuckyOnQuack-999/ELECTROMAGNETIC-AUDIO-TRANSDUCTION`  
 > **Purpose:** Document the theory, field logs, scanner procedures, evidence capture, and regulatory reporting path for a reported case of an unmodified AC motor/HVAC chassis producing intelligible audio via passive RF rectification.
