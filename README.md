@@ -504,8 +504,6 @@ stateDiagram-v2
 
 | Code | Meaning |
 |---|---|
-| **CAn 5** | A channel or search block has been canceled/cleared. |
-| **CLEAr** | Master reset confirmed; memory registers wiped. |
 | **CC Only** | Dedicated Close Call mode active. |
 
 ### Power: DC Powered
