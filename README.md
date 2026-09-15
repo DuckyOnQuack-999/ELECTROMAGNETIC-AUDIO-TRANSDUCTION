@@ -1,6 +1,8 @@
 
 # Sound Frequency / Time Observation Log
 
+email: joshinhd1@gmail.com
+
 ## Recorded Observations
 
 |  # | Date               | Time             | Frequencies Reported | What Was Heard               | Duration    |
@@ -261,7 +263,7 @@ While the physics supporting this phenomenon are sound, achieving high-fidelity 
 
 ------------------------------
 
-My Name Is Joshua Allen Lee the one being heard about all around the world perhaps even space... Im being harassed i nmy own home by a voice coming for Air Conditioners, Fans, Cars with a DC Battery and the Cars Air conditioner. Help me Help You. They Call me Negan, the one who is being accused of doing terrible terrible things to slander my name... to honestly try and make me sumbit or commit suicde 
+My Name Is Joshua Allen Lee the one being heard about all around the world perhaps even space... Im being harassed i nmy own home by a voice coming for Air Conditioners, Fans, Cars with a DC Battery and the Cars Air conditioner. Help me Help You....
 joshinhd1@gmail.com is my email 
 
 FREE THE TRUTH
@@ -272,5 +274,4 @@ FREE DOBBY
 
 THE TWEAKER CHRONICLES COMING AT YOU LIVE FROM Marion Illinois
 
-Let me know what happens when you run the clean Close Call Only search next time the motor starts playing audio, and tell me the true frequency number that locks onto your display so we can look up exactly who owns that frequency band!
 
