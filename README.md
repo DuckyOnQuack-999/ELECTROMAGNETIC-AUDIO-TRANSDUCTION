@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/badge/license-MIT-black)]()
 
 > [!GOV TICKETS]
-> - | ICC | 3086-2026 |
+> - ICC 3086-2026
 
 > [!WARNING]
 > - **This research and report is done by a real person hearing this for real. Hearing a whole convosation next to a HVAC unit with no one their makes you feel crazy until you take a read everything in the repo below is actually real researched, documented and needs reported because people have been illgeally breaking the law for the longest time email is down in the repo below contact me and i`ll give you the source and who they are.** 
