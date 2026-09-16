@@ -446,6 +446,7 @@ The motor-speaker transduction chain: **audio current → shifting magnetic fiel
 |  3 | Sept. 14, 2026 | —          | —        | **917.5000 MHz** |           1 | —                 |       |
 |  4 | Sept. 14, 2026 | —          | —        | **865.5000 MHz** |           1 | —                 |       |
 |  5 | Sept. 15, 2026 | —          | —        | **937.0250 MHz** |           1 | —                 |       |
+|  6 | Sept. 16, 2026 | 12:05      | 12:10     | **27.???? MHz** |           1 | —                 |       |
 
 ### 📊 Frequency × Date Matrix
 
