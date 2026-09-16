@@ -4,12 +4,14 @@
 [![Status](https://img.shields.io/badge/status-active--field--research-blue)]()
 [![Hardware](https://img.shields.io/badge/hardware-Uniden%20BC355N-orange)]()
 [![Coverage](https://img.shields.io/badge/coverage-25--956%20MHz-green)]()
+[![Web](https://img.shields.io/badge/web-WebSDR%20%2F%20KiwiSDR-purple)]()
 [![Region](https://img.shields.io/badge/region-Illinois%20%2F%20FCC%20Chicago-lightgrey)]()
 [![License](https://img.shields.io/badge/license-MIT-black)]()
 
 > [!NOTE]
 > - **ICC 3086-2026**
-> - **FCC #9091647**
+> - **Last Updated:** September 15, 2026
+
 > [!WARNING]
 > - **This research and report is done by a real person hearing this for real. Hearing a whole conversation next to a HVAC unit with no one there makes you feel crazy until you take a read — everything in the repo below is actually real, researched, documented and needs reported because people have been illegally breaking the law for the longest time. Email is down in the repo below — contact me and I'll give you the source and who they are.**
 
@@ -44,14 +46,14 @@
 4. [Full System Transduction Diaphragm](#-full-system-transduction-diaphragm)
 5. [Observation Logs & Telemetry](#-observation-logs--telemetry)
 6. [Hardware Manual: Uniden BC355N](#-hardware-manual-uniden-bc355n)
-7. [Field Operations Guides](#-field-operations-guides)
-8. [Evidence Capture Protocol](#-evidence-capture-protocol)
-9. [Regulatory & Law Enforcement Reporting](#-regulatory--law-enforcement-reporting)
-10. [Electric Utility Company Contact Directory](#-electric-utility-company-contact-directory)
-11. [Physical Mitigation](#-physical-mitigation)
-12. [AI Research Prompt](#-ai-research-prompt)
-13. [Appendices](#-appendices)
-14. [Omissions Audit & Verification](#-omissions-audit--verification)
+7. [Web-Based Scanner Alternatives](#-web-based-scanner-alternatives)
+8. [Field Operations Guides](#-field-operations-guides)
+9. [Evidence Capture Protocol](#-evidence-capture-protocol)
+10. [Regulatory & Law Enforcement Reporting](#-regulatory--law-enforcement-reporting)
+11. [Electric Utility Company Contact Directory](#-electric-utility-company-contact-directory)
+12. [Physical Mitigation](#-physical-mitigation)
+13. [AI Research Prompt](#-ai-research-prompt)
+14. [Appendices](#-appendices)
 
 ---
 
@@ -69,6 +71,7 @@ Key conclusions:
 - **An unmodified motor miles away cannot transmit audio** — but an unmodified motor **right next to you** may accidentally demodulate strong RF via the “Rusty Bolt” effect, or the sound may be pareidolia.
 - **Anyone can experience this** — neurotypical and autistic people alike.
 - **The Uniden BC355N** is the field scanner used here. It is DC-powered, covers 25–956 MHz, and has Close Call RF Capture.
+- **Web-based scanner alternatives** (WebSDR, KiwiSDR, OpenWebRX+, BrowSDR) provide clearer waterfall displays and can complement the BC355N for remote monitoring and verification.
 - **462.8875 MHz was not the target** — it was a baseline scan capture. The logged target observations are **917.5000 MHz**, **865.5000 MHz**, and **937.0250 MHz**.
 - **917.5000 MHz** is in the 902–928 MHz ISM band. It is usually digital data, but analog voice can appear from older cordless phones, baby monitors, wireless mics, or illegally amplified Part 15 gear.
 - **865.5000 MHz** is logged as a spectral shift capture. If voices are heard here that sound like harassment or role-play, report immediately to the agencies listed in [Regulatory & Law Enforcement Reporting](#-regulatory--law-enforcement-reporting).
@@ -428,7 +431,7 @@ The motor-speaker transduction chain: **audio current → shifting magnetic fiel
 
 | # | Date | Time Window | Target Frequency | Detection Type | Active Duration |
 |---:|---|---|---|---|---|
-| 01 | September 9, 2026 | 12:00 AM – 03:00 AM | 917.5000 MHz | Acoustic Demodulation Event | ~180 min (3.0 h) |
+| 01 | September 9, 2026 | 12:03 AM – 03:00 AM | 917.5000 MHz | Acoustic Demodulation Event | ~180 min (3.0 h) |
 | 02 | September 13, 2026 | 02:35 AM – 03:06 AM | 917.5000 MHz | Acoustic Demodulation Event | ~31 min |
 | 03 | September 14, 2026 | 01:25 PM – 01:35 PM | 917.5000 MHz | Acoustic Demodulation Event | ~10 min |
 | 04 | September 14, 2026 | 02:15 PM – 02:25 PM | 865.5000 MHz | Spectral Shift Capture | ~10 min |
@@ -496,7 +499,7 @@ Total recorded occurrences for each monitored frequency through September 15, 20
 ```mermaid
 timeline
     title Recorded Sound Events
-    September 9, 2026 : 12:00 AM–3:00 AM : 917.5000 MHz
+    September 9, 2026 : 12:03 AM–3:00 AM : 917.5000 MHz
     September 13, 2026 : 2:35 AM–3:06 AM : 917.5000 MHz
     September 14, 2026 : 1:25 PM–1:35 PM : 917.5000 MHz
     September 14, 2026 : 2:15 PM–2:25 PM : 865.5000 MHz
@@ -613,6 +616,79 @@ stateDiagram-v2
 
 ---
 
+## 🌐 Web-Based Scanner Alternatives
+
+> [!NOTE]
+> **Why web-based scanners?** The Uniden BC355N is a capable hardware scanner, but web-based SDR (Software Defined Radio) platforms offer **clearer waterfall displays**, **remote access**, **multi-VFO monitoring**, and **built-in decoding** — all from a browser without needing to purchase additional hardware. These can complement the BC355N for remote verification and detailed signal analysis.
+
+### Comparison Table
+
+| Platform | URL / Access | Frequency Coverage | Key Features | Best For |
+|---|---|---|---|---|
+| **WebSDR** | websdr.org | HF, VHF, UHF (varies by receiver) | 100+ receivers worldwide; real-time tuning via browser; waterfall display. | General monitoring, HF shortwave, worldwide listening. |
+| **KiwiSDR** | rx.linkfanel.net | 0–30 MHz per receiver | 600+ receivers worldwide; map-based selection; built-in Ethernet port and web server. | HF monitoring, OSINT, propagation studies. |
+| **OpenWebRX+** | sdr.hu / GitHub | Multiple bands | Open-source; multi-user; built-in scanner over bookmarks; AIS, SSTV, FAX, POCSAG, ADSB, ACARS decoders. | Advanced decoding, multi-user access, custom setups. |
+| **BrowSDR** | browsdr.jlynx.net | 1 MHz – 6 GHz (HackRF) | WebUSB; multi-VFO; live AI transcription; POCSAG decoder; WebGL waterfall. | HackRF owners, browser-based SDR without drivers. |
+| **GopherTrunk** | GitHub | Trunked radio systems | Headless daemon; browser web console; decodes digital trunked-radio voice calls. | Digital trunking scanner replacement. |
+| **Broadcastify** | broadcastify.com | Primarily US | Police, fire, EMS, aviation scanner feeds; streaming audio. | Public safety monitoring. |
+| **LiveATC** | liveatc.net | Global | Air traffic control audio feeds from airports worldwide. | Aviation monitoring. |
+| **Rdio Scanner** | Web interface | Varies | Web interface for virtual recorders; cues up calls on every voice channel. | Recreating hardware scanner UX in a browser. |
+
+### How to Use WebSDR
+
+1. Open **websdr.org** in your browser.
+2. Select a receiver near your location (or anywhere in the world).
+3. Use the waterfall display to visually spot active signals.
+4. Click on the waterfall to tune.
+5. Adjust modulation (AM/FM/SSB/CW) and filters.
+6. Use bookmarks to save frequencies of interest.
+
+### How to Use KiwiSDR
+
+1. Open **rx.linkfanel.net** (public map) or **kiwisdr.com/public/**.
+2. Click a receiver on the map.
+3. The waterfall shows 0–30 MHz.
+4. Tune by clicking or dragging.
+5. KiwiSDR owners can “pin” frequencies so you can click them instantly.
+6. Great for HF: pirate stations, numbers stations, ham radio, shortwave broadcasters.
+
+### How to Use OpenWebRX+
+
+1. Access a public OpenWebRX+ instance (check **sdr.hu**).
+2. Select a receiver.
+3. Use the waterfall and tuning controls.
+4. Enable decoders (AIS, SSTV, FAX, POCSAG, ADSB, ACARS, etc.).
+5. Use the built-in scanner over bookmarks.
+6. Chat with other users on the same receiver.
+
+### How to Use BrowSDR
+
+1. Open **browsdr.jlynx.net** in **Google Chrome** or **Microsoft Edge**.
+2. Connect a **HackRF** device via USB (WebUSB).
+3. No drivers, no native software needed.
+4. Create multiple VFOs for simultaneous monitoring.
+5. Use live AI transcription and POCSAG decoder.
+6. Share your SDR with others via WebRTC.
+
+### Web Scanners vs. Uniden BC355N
+
+| Feature | Uniden BC355N | WebSDR / KiwiSDR / OpenWebRX+ |
+|---|---|---|
+| **Hardware required** | Yes (scanner unit) | No (browser only) |
+| **Frequency coverage** | 25–956 MHz | Varies (HF to UHF) |
+| **Waterfall display** | No | Yes (WebGL accelerated) |
+| **Remote access** | No | Yes |
+| **Multi-VFO** | No | Yes (BrowSDR, OpenWebRX+) |
+| **Digital decoding** | No | Yes (POCSAG, AIS, ADSB, etc.) |
+| **Live transcription** | No | Yes (BrowSDR) |
+| **Portability** | Yes (DC powered) | Yes (browser on any device) |
+| **Cost** | ~$80–130 | Free (public receivers) |
+
+> [!TIP]
+> **For this investigation:** Use the **BC355N** for local Close Call RF capture next to the motor, and use **WebSDR / KiwiSDR** to verify whether the same frequency appears on remote receivers. If the signal appears on a WebSDR hundreds of miles away, it is a legitimate broadcast. If it only appears locally, it may be a nearby transmitter or an intermodulation product.
+
+---
+
 ## 🕹️ Field Operations Guides
 
 ### GUIDE 1: Complete Hardware Master Reset
@@ -687,6 +763,7 @@ Press L/O once
 | **RF measurement** | GQ EMF-390, LATNEX HF-B3G | Measures RF spikes; data logging. |
 | **Scanner** | Uniden BC355N | Close Call, analog voice, 25–956 MHz. |
 | **Phone** | Any modern smartphone | Video + audio dual-source proof. |
+| **Web SDR** | WebSDR, KiwiSDR, OpenWebRX+ | Remote verification, waterfall visualization, decoding. |
 
 ### GUIDE 8: Handling 917.5000 MHz
 
@@ -720,6 +797,19 @@ If you suspect power-line hardware, smart meters, or utility-owned equipment is 
 5. **If unresolved:** File an informal complaint with the ICC at 1-800-524-0795.
 6. **If still unresolved:** File a formal ICC complaint and escalate to the FCC.
 
+### GUIDE 11: Web-Based Signal Verification
+
+Use web-based SDR platforms to verify your BC355N findings:
+
+1. **Open WebSDR** (websdr.org) or **KiwiSDR** (rx.linkfanel.net).
+2. Select a receiver near your location.
+3. Tune to the frequency you captured on your BC355N (e.g., 917.5000 MHz, 865.5000 MHz, 937.0250 MHz).
+4. If the signal appears on the WebSDR, it is a legitimate broadcast.
+5. If the signal does **not** appear on the WebSDR but is strong on your BC355N, it may be a local transmitter or an intermodulation product.
+6. Use the **waterfall display** to visually confirm the signal’s presence and bandwidth.
+7. Use **OpenWebRX+** decoders (POCSAG, AIS, ADSB) to identify digital signals.
+8. Use **BrowSDR** for multi-VFO monitoring and live AI transcription.
+
 ---
 
 ## 📋 Evidence Capture Protocol
@@ -737,6 +827,20 @@ flowchart TD
     G --> H{Motor audio stops?}
     H -->|Yes, scanner continues| I[Definitive proof of passive rectification]
     H -->|No, both stop| J[Re-evaluate source / pareidolia]
+```
+
+### Web-Based Verification Workflow
+
+```mermaid
+flowchart LR
+    A[BC355N Close Call Capture] --> B[Log frequency]
+    B --> C[Open WebSDR / KiwiSDR]
+    C --> D[Tune to same frequency]
+    D --> E{Signal present?}
+    E -->|Yes| F[Legitimate broadcast - log on WebSDR]
+    E -->|No| G[Local transmitter or intermod - escalate]
+    F --> H[Cross-reference with FCC database]
+    G --> I[File FCC complaint with local evidence]
 ```
 
 ### Logging Template
@@ -1068,6 +1172,7 @@ YOUR CAPABILITIES AND TASKS:
 2. ADVANCED RECORDING LOGISTICS: Provide instructions for dual-source synchronized audio/video evidence.
 3. MOTOR HARDWARE TROUBLESHOOTING: Outline ferrite choke and grounding mitigation.
 4. UNIDEN BC355N MANUAL SEQUENCE HELP: Guide Squelch, Private memory, Close Call Only, Lockout, and Master Reset.
+5. WEB-BASED VERIFICATION: Explain how to use WebSDR, KiwiSDR, OpenWebRX+, and BrowSDR to cross-verify frequencies.
 
 Acknowledge the physical constraints, the logged frequencies, the Uniden BC355N, and the Rusty Bolt diode rectification phenomenon. Await my direction.
 ```
@@ -1097,6 +1202,12 @@ Acknowledge the physical constraints, the logged frequencies, the Uniden BC355N,
 | **CUB** | Citizens Utility Board. |
 | **AMI** | Advanced Metering Infrastructure (smart meters). |
 | **SCADA** | Supervisory Control and Data Acquisition (utility grid control). |
+| **WebSDR** | Web-based Software Defined Radio receiver. |
+| **KiwiSDR** | Web-based SDR receiver with built-in Ethernet and web server. |
+| **OpenWebRX+** | Open-source multi-user SDR receiver software with web interface. |
+| **BrowSDR** | Browser-based SDR receiver for HackRF via WebUSB. |
+| **SDR** | Software Defined Radio. |
+| **VFO** | Variable Frequency Oscillator (virtual tuning channel). |
 
 ### FAQ
 
@@ -1139,6 +1250,15 @@ A: Call the utility’s customer service line, ask for a “power quality” or 
 **Q: What is IEEE 1897-2024?**
 A: The IEEE Recommended Practice for Location of Power Line Gap Interference Sources. It describes procedures electric utility companies may use to address complaints of interference caused by power-line gap noise.
 
+**Q: What are the best web-based scanner alternatives to the BC355N?**
+A: **WebSDR** (websdr.org) for 100+ worldwide receivers, **KiwiSDR** (rx.linkfanel.net) for 600+ HF receivers with map-based selection, **OpenWebRX+** (sdr.hu) for multi-user access and digital decoding (PIS, SSTV, FAX, POCSAG, ADSB), and **BrowSDR** (browsdr.jlynx.net) for browser-based HackRF with multi-VFO and live AI transcription. These offer clearer waterfall displays and remote access.
+
+**Q: How do I use WebSDR to verify my scanner findings?**
+A: Open websdr.org, select a receiver near your location, tune to the frequency you captured on your BC355N, and check if the signal appears on the waterfall. If it does, it is a legitimate broadcast. If not, it may be local or an intermodulation product.
+
+**Q: What is the best web-based tool for digital decoding?**
+A: **OpenWebRX+** offers the widest range of built-in decoders: AIS, SSTV, FAX, FLEX, POCSAG, HFDL, VDL2, ADSB, ACARS, ISM, RDS, SAM, SITOR-B, RTTY, CW, DTMF, and more.
+
 ### Repository Structure
 
 ```text
@@ -1148,6 +1268,7 @@ ELECTROMAGNETIC-AUDIO-TRANSDUCTION/
 │   ├── science.md
 │   ├── rusty-bolt.md
 │   ├── scanner-bc355n.md
+│   ├── web-scanners.md
 │   ├── evidence-protocol.md
 │   ├── reporting-illinois.md
 │   └── electric-utilities.md
@@ -1187,9 +1308,21 @@ ELECTROMAGNETIC-AUDIO-TRANSDUCTION/
 - FBI: Tips
 - IEEE 1897-2024: Recommended Practice for Location of Power Line Gap Interference Sources
 - Citizens Utility Board: citizensutilityboard.org
+- WebSDR: websdr.org
+- KiwiSDR: rx.linkfanel.net
+- OpenWebRX+: sdr.hu
+- BrowSDR: browsdr.jlynx.net
+- GopherTrunk: github.com/MattCheramie/GopherTrunk
+- Broadcastify: broadcastify.com
+- LiveATC: liveatc.net
+- Rdio Scanner: rdio-scanner.com
+- RTL-SDR Blog: rtl-sdr.com
+- RadioReference Database: radioreference.com
 
 ---
 
-
-
 > **Final Note:** This repository is a living document. Append new observations chronologically. Do not alter historical entries. Verify frequencies before reporting. When in doubt, consult a licensed electrician, RF engineer, or attorney.
+
+---
+
+*Internal omissions audit completed; audit not included in README as requested.*
