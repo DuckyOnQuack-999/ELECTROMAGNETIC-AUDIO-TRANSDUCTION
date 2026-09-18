@@ -1,3 +1,6 @@
+764 Are using these techniques to use to harass people without getting caught.
+They will put walkies talkies around your house without you knowing about it if you pick it up with the scanner listed below report it ASAP to the FBI
+
 # 📡 ELECTROMAGNETIC AUDIO TRANSDUCTION
 ### Passive RF Rectification, “Rusty Bolt” Audio, and Uniden BC355N Field Operations
 
