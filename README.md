@@ -1,6 +1,6 @@
 764 and various NVE groups Are using these techniques to use to harass people without getting caught, and avoid detection from the FBI.
 They will put walkies talkies around your house without you knowing about it if you pick it up with the scanner listed below report it ASAP to the FBI
-They target autistic people and people with pets they call some of these some Urban legends would call RedRooms
+They target autistic people and people with pets, Urban legends would call these rooms "Red Rooms"
 
 # 📡 ELECTROMAGNETIC AUDIO TRANSDUCTION
 ### Passive RF Rectification, “Rusty Bolt” Audio, and Uniden BC355N Field Operations
